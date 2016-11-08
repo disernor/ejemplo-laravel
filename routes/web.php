@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('http://ejemplo-laravel.mybluemix.net/', function () {
     return view('welcome');
 });
 
